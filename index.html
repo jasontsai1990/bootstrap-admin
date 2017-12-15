@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/sidebar.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- top -->
+<nav class="navbar navbar-inverse navbar-fixed-top" style="border:0">
+    <div class="container-fluid">
+        <ul class="navbar-ul">
+            <li class="active"><a href="">今日超值</a></li>
+            <li><a href="">设置</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- center -->
+<div class="container-fluid">
+<div class="row">
+
+    <!-- sidebar -->
+    <div class="col-md-2 sidebar">
+        <ul class="nav nav-sidebar">
+            <li class="title">设置 <span>&laquo;</span></li>
+            <li><a href="#">管理员</a></li>
+            <li class="active" ><a href="#"> 管理员</a></li>
+            <li><a href="#"> 管理员</a></li>
+            <li><a href="#">管理员</a></li>
+        </ul>
+    </div>
+
+
+    <div class="col-md-10 col-md-offset-2 main">
+
+        <!-- fun -->
+        <div class="sub-header">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-success">新增</button>
+              <button type="button" class="btn btn-warning">筛选</button>
+
+            </div>
+        </div>
+
+        <!-- table -->
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                    <th>#</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>1,001</td>
+                    <td>Lorem</td>
+                    <td>ipsum</td>
+                    <td>dolor</td>
+                    <td>sit</td>
+                    </tr>
+                    <tr>
+                    <td>1,001</td>
+                    <td>Lorem</td>
+                    <td>ipsum</td>
+                    <td>dolor</td>
+                    <td>sit</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- 分页 -->
+            <div class="btn-group dropup  col-md-offset-11">
+                <button type="button" class="btn btn-default">&laquo;</button>
+                <button type="button" class="btn btn-default">&raquo;</button>
+                <button type="button" class="btn btn-default">1</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                <li><a href="">1</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

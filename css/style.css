@@ -1,0 +1,27 @@
+.navbar-ul {
+    list-style-type: none;
+}
+.navbar-ul li {
+    float: left;
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+}
+.navbar-ul li a {
+    color: #9d9d9d;
+}
+.navbar-ul li a:hover {
+    text-decoration: none;
+}
+.navbar-ul .active {
+    background: #428bca;
+}
+.navbar-ul .active a {
+    color: #fff;
+}
+
+.dropdown-menu {
+    min-width: 120px;
+    overflow:auto; height: 90px; 
+    text-align: center;
+}
